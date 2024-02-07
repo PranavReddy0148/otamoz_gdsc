@@ -7,9 +7,9 @@ function Search() {
             <div className="w-full h-[50]">
                 <img  className="w-full h-96" src="https://www.shutterstock.com/shutterstock/photos/1487345024/display_1500/stock-vector-help-feed-a-hungry-child-hunger-prevention-charity-donation-food-sharing-giving-food-for-the-1487345024.jpg" alt="" />
             </div>
-            <div className="absolute z-10 top-[50%] left-[30%]">
+            {/* <div className="absolute z-10 top-[50%] left-[30%]">
             <Count/>
-            </div>
+            </div> */}
             <div className="flex flex-wrap mt-12">
                 <div className="form-control">
                     <input type="text" placeholder="Search" className="input input-bordered w-24 md:w-auto" />

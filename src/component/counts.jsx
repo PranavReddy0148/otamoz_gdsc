@@ -2,7 +2,7 @@ import React from "react";
 
 function Count() {
     return (
-        <div className="w-[50%]">
+        <div>
             <div className="stats shadow">
 
                 <div className="stat place-items-center">
