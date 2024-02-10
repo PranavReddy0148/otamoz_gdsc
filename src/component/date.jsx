@@ -1,6 +1,7 @@
 import React, { useState } from "react";
 import Calendar from 'react-calendar';
 import 'react-calendar/dist/Calendar.css';
+import { NavLink } from "react-router-dom";
 
 function DateAndTime() {
     // State variables to manage the checked status of checkboxes
@@ -72,12 +73,15 @@ function DateAndTime() {
 
                     {/* div 3 starts here */}
                     <div className="p-4 md:p-12">
-                        <button className="btn btn-block">Enter Location</button>
+                        <NavLink
+                            to="../location">
+                            <button className="btn btn-block">Enter Location</button>
+                        </NavLink>
                     </div>
                     {/* div 3 ends here */}
                 </div>
                 <div className="lg:ml-96 md:ml-12">
-                    <h1>Calendar - GeeksforGeeks</h1>
+                    <h1>Select a Date:</h1>
                     <Calendar
                         onChange={onChange}
                         value={value}
@@ -99,7 +103,7 @@ function DateAndTime() {
             <div className="flex justify-center items-center m-8">
                 <button className="btn btn-active btn-primary w-[20%]">Donate</button>
             </div>
-           
+
         </div>
     )
 }

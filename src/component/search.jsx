@@ -1,11 +1,12 @@
 import React from "react";
 import Count from "./counts";
+import { NavLink } from "react-router-dom";
 
 function Search() {
     return (
         <div className="flex flex-col bg-white flex-wrap p-4">
             <div className="w-full h-[50]">
-                <img  className="w-full h-96" src="https://www.shutterstock.com/shutterstock/photos/1487345024/display_1500/stock-vector-help-feed-a-hungry-child-hunger-prevention-charity-donation-food-sharing-giving-food-for-the-1487345024.jpg" alt="" />
+                <img className="w-full h-96" src="https://www.shutterstock.com/shutterstock/photos/1487345024/display_1500/stock-vector-help-feed-a-hungry-child-hunger-prevention-charity-donation-food-sharing-giving-food-for-the-1487345024.jpg" alt="" />
             </div>
             {/* <div className="absolute z-10 top-[50%] left-[30%]">
             <Count/>
@@ -22,9 +23,20 @@ function Search() {
 
             </div>
             <div className="flex flex-wrap gap-3 mt-4 mb-8">
-                <div className="badge badge-ghost">Priority Areas</div>
-                <div className="badge badge-ghost">Volunteering Work</div>
-                <div className="badge badge-ghost">Donate</div>
+                <div className="badge badge-ghost hover:cursor-pointer">
+                    <NavLink
+                        to="../priorityArea">Priority Areas
+                    </NavLink>
+                </div>
+
+                <div className="badge badge-ghost hover:cursor-pointer">
+                    <NavLink
+                        to="volunteers">Volunteering Work
+                    </NavLink></div>
+                <div className="badge badge-ghost hover:cursor-pointer">
+                    <NavLink
+                        to="donate">Donate
+                    </NavLink></div>
             </div>
         </div>
     )

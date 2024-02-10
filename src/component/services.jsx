@@ -9,22 +9,22 @@ function Services() {
             </div>
             <div className="flex flex-wrap justify-around mt-12 gap-9">
                 <ServiceCard
-                    title="Hostel Mess"
-                    desc="A lot of food is getting wasted in messes of school and college."
-                    imgLink="https://daisyui.com/images/stock/photo-1606107557195-0e29a4b5b4aa.jpg"
+                    title="Excess Food collection"
+                    desc="Save Food" 
+                    imgLink="https://img.freepik.com/premium-photo/welcome-team-shot-two-young-restaurant-owners-standing-outside-together-shaking-hands_590464-53704.jpg"
                     button="Doorstep Collection"
                 />
                 <ServiceCard
-                    title="Hostel Mess"
-                    desc="A lot of food is getting wasted in messes of school and college."
-                    imgLink="https://daisyui.com/images/stock/photo-1606107557195-0e29a4b5b4aa.jpg"
-                    button="Doorstep Collection"
+                    title="Quality Check and Storage"
+                    desc="Store food"
+                    imgLink="https://images.unsplash.com/photo-1606859191214-25806e8e2423?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8NHx8Zm9vZCUyMHN0b3JhZ2V8ZW58MHx8MHx8fDA%3D"
+                    button="Foodgrade Inspection"
                 />
                 <ServiceCard
-                    title="Hostel Mess"
-                    desc="A lot of food is getting wasted in messes of school and college."
-                    imgLink="https://daisyui.com/images/stock/photo-1606107557195-0e29a4b5b4aa.jpg"
-                    button="Doorstep Collection"
+                    title="Feed the hungry"
+                    desc="Help those Inneed"
+                    imgLink="https://images.pexels.com/photos/6995247/pexels-photo-6995247.jpeg?auto=compress&cs=tinysrgb&w=600"
+                    button="Warm meals"
                 />
                
             </div>

@@ -1,21 +1,32 @@
 import React from "react";
+import { NavLink } from "react-router-dom"
 
-function Navbar(){
-    return(
+function Navbar() {
+    return (
         <>
-        <nav className="w-full p-4 pl-8 pr-8 h-auto flex flex-wrap justify-between border-b-2 ">
-            <div className="">
-                <h2 className=" text-5xl ml-8 font-mono font-bold">Otamoz</h2>
-            </div>
-            <div className="flex gap-9">
-                <div>
-                    <button className="btn btn-primary btn-md btn-outline">Donate</button>
+            <nav className="w-full p-4 pl-8 pr-8 h-auto flex flex-wrap justify-between border-b-2 ">
+                <div className="">
+                    <NavLink
+                        to="">
+                        <h2 className="hover:cursor-pointer text-5xl ml-8 font-mono font-bold">Otamoz</h2>
+                    </NavLink>
                 </div>
-                <div>
-                    <button className="btn btn-primary btn-md btn-outline">Volunteer</button>
+                <div className="flex gap-9">
+
+                    <div>
+                        <NavLink
+                            to="donate">
+                            <button className="btn btn-primary btn-md btn-outline">Donate</button>
+                        </NavLink>
+                    </div>
+                    <div>
+                        <NavLink
+                            to="volunteers">
+                            <button className="btn btn-primary btn-md btn-outline">Volunteer</button>
+                        </NavLink>
+                    </div>
                 </div>
-            </div>
-        </nav>
+            </nav>
         </>
     )
 }

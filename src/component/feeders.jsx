@@ -11,17 +11,17 @@ function Feeders(){
                 <FeederCard 
                 title="Hostel Mess"
                 desc="A lot of food is getting wasted in messes of school and college."
-                imgLink="https://daisyui.com/images/stock/photo-1606107557195-0e29a4b5b4aa.jpg"
+                imgLink="https://img.freepik.com/free-photo/front-view-box-with-provisions-food-day_23-2148613311.jpg?w=2000&t=st=1707557067~exp=1707557667~hmac=c9623375d7cb6d39e83fc5e6ec75ab2585228cb92e220246afeece60555e2071"
                 />
                 <FeederCard 
-                title="Hostel Mess"
-                desc="A lot of food is getting wasted in messes of school and college."
-                imgLink="https://daisyui.com/images/stock/photo-1606107557195-0e29a4b5b4aa.jpg"
+                title="Party Leftovers"
+                desc="Party,marriages and family functions."
+                imgLink="https://images.unsplash.com/photo-1615897570582-285ffe259530?q=80&w=2940&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
                 />
                 <FeederCard 
-                title="Hostel Mess"
-                desc="A lot of food is getting wasted in messes of school and college."
-                imgLink="https://daisyui.com/images/stock/photo-1606107557195-0e29a4b5b4aa.jpg"
+                title="Household Leftovers"
+                desc="A lot of food is getting wasted daily in  home kitchens."
+                imgLink="/donation7.jpg"
                 />
                
 

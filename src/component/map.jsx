@@ -112,7 +112,7 @@ function GoogleMap() {
   return (
     <div className="mt-8" style={{ display: 'flex', justifyContent: 'center' }}>
       <input id="pac-input" className="controls text-2xl" type="text" placeholder="Search Box" style={{ width: '400px',height: '40px', border: '2px solid #ccc' }} />
-      <div id="map" style={{ height: '400px', width: '100%', marginTop: '20px' }}></div>
+      <div id="map" style={{ height: '700px', width: '100%', marginTop: '-2%' }}></div>
     </div>
   );
 }
