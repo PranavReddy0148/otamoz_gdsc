@@ -12,6 +12,11 @@ import DonateButton from './component/donateButton.jsx'
 import GoogleMap from './component/map.jsx'
 import StaticLocation from './component/staticlocation.jsx'
 import Contact from './component/contact.jsx'
+import Team from './component/team.jsx'
+import Login from './component/register.jsx'
+import Drawer from './component/drawer.jsx'
+import Notifications from './component/notifications.jsx'
+import Unread from './component/unread.jsx'
 
 
 
@@ -46,6 +51,26 @@ const router = createBrowserRouter([
       {
         path:"contact",
         element:<Contact/>
+      },
+      {
+        path:"team",
+        element:<Team/>
+      },
+      {
+        path:"login",
+        element:<Login/>
+      },
+      {
+        path:"profile",
+        element:<Drawer/>
+      },
+      {
+        path:"notifications",
+        element:<Notifications/>
+      },
+      {
+        path:"unread",
+        element:<Unread/>
       }
      
     ]

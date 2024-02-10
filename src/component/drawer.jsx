@@ -1,4 +1,5 @@
 import React from "react";
+import { NavLink } from "react-router-dom";
 
 function Drawer() {
     return (
@@ -64,7 +65,7 @@ function Drawer() {
                     {/* Sidebar content here */}
                     <p className="font-semibold text-4xl p-4">Profile Settings</p>
                     <li className="text-xl"> <a> <img className="w-6 h-auto" src="/profile.png" alt="" />Personal Information</a></li>
-                    <li className="text-xl"> <a> <img className="w-6 h-auto" src="/notif.gif" alt="" />Notifications</a></li>
+                    <li className="text-xl"> <NavLink to="../notifications"> <img className="w-6 h-auto" src="/notif.gif" alt="" />Notifications</NavLink></li>
                     <li className="text-xl"> <a> <img className="w-6 h-auto" src="/invite.png" alt="" />Invite Members</a></li>
                     <li className="text-xl"> <a> <img className="w-6 h-auto" src="/pay.png" alt="" />Payment details</a></li>
 

@@ -25,6 +25,17 @@ function Navbar() {
                             <button className="btn btn-primary btn-md btn-outline">Volunteer</button>
                         </NavLink>
                     </div>
+                    <div>
+                        <NavLink
+                            to="profile">
+                            <div className="avatar">
+                                <div className="w-12 rounded-full">
+                                    <img src="https://daisyui.com/images/stock/photo-1534528741775-53994a69daeb.jpg" />
+                                </div>
+                            </div>
+                        </NavLink>
+                    </div>
+
                 </div>
             </nav>
         </>

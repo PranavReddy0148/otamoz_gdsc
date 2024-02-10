@@ -13,9 +13,9 @@ function Footer() {
             </nav>
             <nav>
                 <h6 className="footer-title">Quick links</h6>
-                <a className="link link-hover">Login/Register</a>
+                <NavLink className="link link-hover" to="login">Login/Register</NavLink>
+                <NavLink className="link link-hover" to="team">Team</NavLink>
                 <NavLink className="link link-hover" to="contact">Contact Us</NavLink>
-                <a className="link link-hover">Donate</a>
                 <a className="link link-hover">About us</a>
             </nav>
             <nav>
