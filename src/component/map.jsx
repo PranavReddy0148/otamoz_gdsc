@@ -101,7 +101,7 @@ function GoogleMap() {
 
     if (!window.google) {
       const googleScript = document.createElement('script');
-      googleScript.src = `https://maps.googleapis.com/maps/api/js?key=AIzaSyB41DRUbKWJHPxaFjMAwdrzWzbVKartNGg&callback=initAutocomplete&libraries=places&v=weekly`;
+      googleScript.src = `https://maps.googleapis.com/maps/api/js?key=AIzaSyB41DRUbKWJHPxaFjMAwdrzWzbVKartNGg&libraries=places&v=weekly`;
       googleScript.onload = initMap;
       document.head.appendChild(googleScript);
     } else {
