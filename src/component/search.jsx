@@ -6,7 +6,7 @@ function Search() {
     return (
         <div className="flex flex-col bg-white flex-wrap p-4">
             <div className="w-full h-[50]">
-                <img className="w-full h-96" src="https://www.shutterstock.com/shutterstock/photos/1487345024/display_1500/stock-vector-help-feed-a-hungry-child-hunger-prevention-charity-donation-food-sharing-giving-food-for-the-1487345024.jpg" alt="" />
+                <img className="w-full h-[70vh]" src="https://images.unsplash.com/photo-1536703219213-0223580c76b2?q=80&w=2942&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D" alt="" />
             </div>
             {/* <div className="absolute z-10 top-[50%] left-[30%]">
             <Count/>

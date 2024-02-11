@@ -75,7 +75,7 @@ function DateAndTime() {
                     <div className="p-4 md:p-12">
                         <NavLink
                             to="../location">
-                            <button className="btn btn-block">Enter Location</button>
+                            <button className="btn btn-block btn-primary">Choose Location on Map</button>
                         </NavLink>
                     </div>
                     {/* div 3 ends here */}
